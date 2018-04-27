@@ -94,8 +94,14 @@ body {
 #map {
     height:480px;
     width: 720px;
+    padding-bottom: 30px;
 }
 
+#static-map {
+    height:480px;
+    width: 720px;
+}
+}
 
 .product-right {
     display:inline;

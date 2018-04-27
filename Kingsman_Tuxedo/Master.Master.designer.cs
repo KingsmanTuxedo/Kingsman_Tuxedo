@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Tuxedo_kingsman {
+namespace Kingsman_Tuxedo {
     
     
     public partial class Master {

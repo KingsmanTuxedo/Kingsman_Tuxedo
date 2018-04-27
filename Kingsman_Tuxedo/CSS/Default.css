@@ -5,8 +5,14 @@
     opacity: 0.90;
 }
 
+section {
+    float: left;
+    width: 30%;
+}
+
 footer p, h3 {
     color: #FFF;
+    font-family: Arial;
 }
 
 footer p a {
