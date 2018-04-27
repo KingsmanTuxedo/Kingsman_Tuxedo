@@ -1,0 +1,44 @@
+﻿footer {
+    background: #333333;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0.90;
+}
+
+footer p, h3 {
+    color: #FFF;
+}
+
+footer p a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+ul.social li {
+    display: inline;
+}
+
+ul.social li img {
+    width:50px;
+    height: 50px;
+}
+
+ul.payment-option li {
+    display: inline;
+}
+
+ul.payment-option li img {
+    height: 50px;
+    width: 50px;
+}
+
+footer.second {
+    border-top: 1px solid #4D4E5D;
+    background-color: #333333;
+    max-height: 50px;
+    text-align: center;
+}
+
+footer.second a {
+   color: white;
+}
