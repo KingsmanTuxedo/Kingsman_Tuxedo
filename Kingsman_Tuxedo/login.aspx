@@ -23,7 +23,7 @@
     </p>
     <p>&nbsp;</p>
 
-        <!--<h1>Account registration</h1>
+        <h1>Account registration</h1>
 
         E-Mail
         <asp:TextBox ID="TxtRegEmail" runat="server" style="margin-left: 24px" Width="215px"></asp:TextBox>
@@ -38,7 +38,7 @@
         <br />
         <br />
         <asp:Literal ID="LitRegMsg" runat="server"></asp:Literal>
-        <br />-->
+        <br />
    </form>
 
 </asp:Content>
