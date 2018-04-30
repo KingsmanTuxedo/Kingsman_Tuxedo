@@ -1,0 +1,26 @@
+﻿#Left-Block {
+    float: left;
+    width: 40%;
+}
+
+#Left-Block img {
+    width: 80%;
+}
+
+#Right-Block {
+    float: right;
+    width: 60%;
+}
+
+#Right-Block h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: maroon;
+}
+
+#Right-Block h4 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Right-Block p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
