@@ -28,7 +28,7 @@ namespace Kingsman_Tuxedo
             var user = new IdentityUser() { UserName = TxtRegEmail.Text };
 
 
-            IdentityRole adminRole = new IdentityRole("Admin");
+            IdentityRole adminRole = new IdentityRole("RegisteredUser");
             roleManager.Create(adminRole);
 
 
@@ -36,7 +36,7 @@ namespace Kingsman_Tuxedo
             if (result.Succeeded)
 
             {
-                manager.AddToRole(user.Id, "Admin");
+                manager.AddToRole(user.Id, "RegisteredUser");
                 manager.Update(user);
 
                 LitRegMsg.Text = "User Registration Successful !";

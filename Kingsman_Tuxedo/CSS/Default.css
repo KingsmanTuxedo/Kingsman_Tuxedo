@@ -48,3 +48,31 @@ footer.second {
 footer.second a {
    color: white;
 }
+
+#Repeater {
+    margin: 0px;
+}
+
+#Repeater img {
+    height: 300px;
+    padding: 10px;
+}
+
+#Repeater li {
+    display: inline-block;
+    float:left;
+    width: 33%;
+    height: 600px;
+    border:solid 1px black;
+    border-radius: 5px;
+}
+
+#Repeater h3 a {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: maroon;
+    text-decoration: none;
+}
+
+#Repeater p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

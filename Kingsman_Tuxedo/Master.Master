@@ -5,23 +5,23 @@
 <link rel="shortcut icon" href="images/1.jpg"/>
 <title> Kingsman Tuxedo </title>
     <asp:ContentPlaceHolder ID="head" runat="server">
-         <link href="~/CSS/Style.css" rel="stylesheet" type="text/css"/>
-         <link href="~/CSS/Default.css" rel="stylesheet" type="text/css"/>
+        <link href="~/CSS/Style.css" rel="stylesheet" type="text/css"/>
+        <link href="~/CSS/Default.css" rel="stylesheet" type="text/css"/>
     </asp:ContentPlaceHolder>
 </head>
 <body>
 
 <div id="content">
 	<div id="header">
-		<img src="images/kingsman.jpg" runat="server" alt= "image" height="200" />
+		<img src="Images/kingsman.jpg" runat="server" alt= "image" height="200" />
 	</div>
 	<div id="navigation1">
 		<div id="navigation">
-			<ul>
-				<li><a href="Default.aspx">Home</a></li>
-				<li><a href="About.aspx">About us</a></li>
-				<li><a href="Contact.aspx">Contact Us</a>
-				<li><a href="Login.aspx">Log In</a></li>
+			<ul>	
+                <li><a href="~/Default.aspx" runat="server">Home</a></li>
+				<li><a href="~/Pages/About.aspx" runat="server">About</a></li>
+				<li><a href="~/Pages/Contact.aspx" runat="server">Contact</a></li>
+				<li><a href="~/login.aspx" runat="server">Log-In</a></li>
 			</ul>
 		</div>
 	</div>
@@ -61,8 +61,7 @@
                 <a href="http://validator.w3.org/check?url=referer">Validate HTML  |  </a>
                 <a href="https://jigsaw.w3.org/css-validator/">Validate CSS  |  </a>
                 <a href="https://achecker.ca/checker/index.php">Check WCAG  |  </a>
-                <a href="~/Admin/Index.aspx">Admin Account</a>
-
+                <a href="~/Admin/Index.aspx" runat="server">Admin Account</a>
                 <p>&copy; Copyright Kingsman Tuxedo 2018 - All Rights Reserved</p>
             </footer>
     </div>
