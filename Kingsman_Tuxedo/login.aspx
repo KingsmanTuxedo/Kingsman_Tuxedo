@@ -39,6 +39,6 @@
         <br />
         <asp:Literal ID="LitRegMsg" runat="server"></asp:Literal>
         <br />
-   </form>-->
+   </form>->
 
 </asp:Content>
